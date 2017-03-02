@@ -20,7 +20,7 @@ Install
  composer.phar
 ```json
 "require": {
-    "sunra/php-simple-html-dom-parser": "1.5.2"
+    "matpo/php-simple-html-dom-parser": "1.5.2"
     }
 ```
 
@@ -28,7 +28,7 @@ Usage
 -----
 
 ```php
-use Sunra\PhpSimple\HtmlDomParser;
+use Matpo\PhpSimple\HtmlDomParser;
 
 ...
 $dom = HtmlDomParser::str_get_html( $str );
